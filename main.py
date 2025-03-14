@@ -5,8 +5,10 @@ def bank(a, years):
         a += a * 0.10  # Увеличиваем вклад на 10%
     return a
 
+
 # Ввод данных
 deposit = float(input("Введите сумму вклада: "))
+
 num_years = int(input("Введите срок вклада в годах: "))
 
 result = bank(deposit, num_years)
